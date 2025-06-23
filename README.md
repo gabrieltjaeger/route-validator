@@ -57,7 +57,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-Run the main script to validate a sample route:
+Run the main script to validate a route. You should input a route to validate:
 
 ```bash
 python main.py
@@ -86,15 +86,3 @@ To run all tests:
 ```bash
 pytest test/test.py
 ```
-
----
-
-## Example
-
-You can validate a route by editing the `route` variable in `main.py`:
-
-```python
-route = "MG,GO,DF,GO,TO"
-```
-
-Or use the classes in your own scripts for custom validation.
